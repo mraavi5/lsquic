@@ -49,31 +49,33 @@ enum lsquic_version
      * Q043.  Support for processing PRIORITY frames.  Since this library
      * has supported PRIORITY frames from the beginning, this version is
      * exactly the same as LSQVER_042.
-     */
-    LSQVER_043,
+     
+        LSQVER_043,
 
-    /**
+        **
      * Q046.  Use IETF Draft-17 compatible packet headers.
-     */
-    LSQVER_046,
+     
+        LSQVER_046,
 
-    /**
+        /**
      * Q050.  Variable-length QUIC server connection IDs.  Use CRYPTO frames
      * for handshake.  IETF header format matching invariants-06.  Packet
      * number encryption.  Initial packets are obfuscated.
-     */
-    LSQVER_050,
-
-    /**
-     * IETF QUIC Draft-27
-     */
-    LSQVER_ID27,
+     
+        LSQVER_050,
+    */
+    
 
     /**
      * IETF QUIC Draft-29
      */
     LSQVER_ID29,
 
+    /**
+     * IETF QUIC Draft-27
+     */
+    LSQVER_ID27,
+    
     /**
      * IETF QUIC v1.
      */
