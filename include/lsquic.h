@@ -52,12 +52,11 @@ enum lsquic_version
      
         LSQVER_043,
 
-        **
-     * Q046.  Use IETF Draft-17 compatible packet headers.
+        Q046.  Use IETF Draft-17 compatible packet headers.
      
         LSQVER_046,
 
-        /**
+        
      * Q050.  Variable-length QUIC server connection IDs.  Use CRYPTO frames
      * for handshake.  IETF header format matching invariants-06.  Packet
      * number encryption.  Initial packets are obfuscated.
